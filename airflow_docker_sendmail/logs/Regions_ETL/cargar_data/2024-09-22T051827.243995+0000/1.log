@@ -1,0 +1,86 @@
+[2024-09-22 05:18:37,343] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Regions_ETL.cargar_data manual__2024-09-22T05:18:27.243995+00:00 [queued]>
+[2024-09-22 05:18:37,356] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Regions_ETL.cargar_data manual__2024-09-22T05:18:27.243995+00:00 [queued]>
+[2024-09-22 05:18:37,357] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-22 05:18:37,357] {taskinstance.py:1239} INFO - Starting attempt 1 of 6
+[2024-09-22 05:18:37,357] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-22 05:18:37,372] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): cargar_data> on 2024-09-22 05:18:27.243995+00:00
+[2024-09-22 05:18:37,377] {standard_task_runner.py:52} INFO - Started process 2038 to run task
+[2024-09-22 05:18:37,380] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Regions_ETL', 'cargar_data', 'manual__2024-09-22T05:18:27.243995+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Regions.py', '--cfg-path', '/tmp/tmpfx3z8gnf', '--error-file', '/tmp/tmpvzdx1269']
+[2024-09-22 05:18:37,381] {standard_task_runner.py:77} INFO - Job 25: Subtask cargar_data
+[2024-09-22 05:18:37,443] {logging_mixin.py:109} INFO - Running <TaskInstance: Regions_ETL.cargar_data manual__2024-09-22T05:18:27.243995+00:00 [running]> on host 61d34902ebae
+[2024-09-22 05:18:37,481] {warnings.py:99} WARNING - /home/***/.local/lib/python3.6/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2024-09-22 05:18:37,513] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=flores_laura14
+AIRFLOW_CTX_DAG_ID=Regions_ETL
+AIRFLOW_CTX_TASK_ID=cargar_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-09-22T05:18:27.243995+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-09-22T05:18:27.243995+00:00
+[2024-09-22 05:18:37,518] {logging_mixin.py:109} INFO - Cargando la data para la fecha: 2024-09-22 5
+[2024-09-22 05:18:37,613] {logging_mixin.py:109} INFO - (250, 9)
+[2024-09-22 05:18:37,638] {logging_mixin.py:109} INFO -             name  population  ...  timezones                    etl_time
+0  South Georgia          30  ...  UTC-02:00  2024-09-22 05:18:32.563010
+1        Grenada      112519  ...  UTC-04:00  2024-09-22 05:18:32.563010
+2    Switzerland     8654622  ...  UTC+01:00  2024-09-22 05:18:32.563010
+3   Sierra Leone     7976985  ...        UTC  2024-09-22 05:18:32.563010
+4        Hungary     9749763  ...  UTC+01:00  2024-09-22 05:18:32.563010
+
+[5 rows x 9 columns]
+[2024-09-22 05:18:39,404] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ETL_Regions.py", line 145, in cargar_data
+    port='5439')
+  File "/home/airflow/.local/lib/python3.6/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "flores_laura14_coderhouse"
+connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "flores_laura14_coderhouse"
+
+[2024-09-22 05:18:39,421] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=Regions_ETL, task_id=cargar_data, execution_date=20240922T051827, start_date=20240922T051837, end_date=20240922T051839
+[2024-09-22 05:18:39,435] {standard_task_runner.py:92} ERROR - Failed to execute job 25 for task cargar_data
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ETL_Regions.py", line 145, in cargar_data
+    port='5439')
+  File "/home/airflow/.local/lib/python3.6/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "flores_laura14_coderhouse"
+connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "flores_laura14_coderhouse"
+
+[2024-09-22 05:18:39,484] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-09-22 05:18:39,535] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

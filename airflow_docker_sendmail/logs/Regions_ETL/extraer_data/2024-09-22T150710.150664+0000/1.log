@@ -1,0 +1,27 @@
+[2024-09-22 15:07:12,812] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Regions_ETL.extraer_data manual__2024-09-22T15:07:10.150664+00:00 [queued]>
+[2024-09-22 15:07:12,834] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Regions_ETL.extraer_data manual__2024-09-22T15:07:10.150664+00:00 [queued]>
+[2024-09-22 15:07:12,835] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-22 15:07:12,835] {taskinstance.py:1239} INFO - Starting attempt 1 of 6
+[2024-09-22 15:07:12,836] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-22 15:07:12,858] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): extraer_data> on 2024-09-22 15:07:10.150664+00:00
+[2024-09-22 15:07:12,864] {standard_task_runner.py:52} INFO - Started process 8621 to run task
+[2024-09-22 15:07:12,868] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Regions_ETL', 'extraer_data', 'manual__2024-09-22T15:07:10.150664+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Regions.py', '--cfg-path', '/tmp/tmphc97hlam', '--error-file', '/tmp/tmp9rnxm3ey']
+[2024-09-22 15:07:12,869] {standard_task_runner.py:77} INFO - Job 49: Subtask extraer_data
+[2024-09-22 15:07:12,952] {logging_mixin.py:109} INFO - Running <TaskInstance: Regions_ETL.extraer_data manual__2024-09-22T15:07:10.150664+00:00 [running]> on host 61d34902ebae
+[2024-09-22 15:07:12,999] {warnings.py:99} WARNING - /home/***/.local/lib/python3.6/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2024-09-22 15:07:13,031] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=flores_laura14
+AIRFLOW_CTX_DAG_ID=Regions_ETL
+AIRFLOW_CTX_TASK_ID=extraer_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-09-22T15:07:10.150664+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-09-22T15:07:10.150664+00:00
+[2024-09-22 15:07:13,035] {logging_mixin.py:109} INFO - Adquiriendo data para la fecha: 2024-09-22 15
+[2024-09-22 15:07:14,374] {logging_mixin.py:109} INFO - Success!
+[2024-09-22 15:07:14,561] {python.py:175} INFO - Done. Returned value was: None
+[2024-09-22 15:07:14,571] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=Regions_ETL, task_id=extraer_data, execution_date=20240922T150710, start_date=20240922T150712, end_date=20240922T150714
+[2024-09-22 15:07:14,614] {local_task_job.py:154} INFO - Task exited with return code 0
+[2024-09-22 15:07:14,683] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

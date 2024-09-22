@@ -15,7 +15,7 @@ import smtplib
 
 dag_path = os.getcwd()     #path original.. home en Docker
 
-url="data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws"
+url="data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com"
 with open(dag_path+'/keys/'+"db.txt",'r') as f:
     data_base= f.read()
 with open(dag_path+'/keys/'+"user.txt",'r') as f:
@@ -25,7 +25,7 @@ with open(dag_path+'/keys/'+"pwd.txt",'r') as f:
 
 redshift_conn = {
     'host': url,
-    'username': user,
+    'user': user,
     'database': data_base,
     'port': '5439',
     'pwd': pwd
@@ -115,9 +115,9 @@ def conexion_redshift(exec_date):
     try:
         conn = psycopg2.connect(
             host=url,
-            dbname=redshift_conn["database"],
-            user=redshift_conn["username"],
-            password=redshift_conn["pwd"],
+            dbname=data_base,
+            user=user,
+            password=pwd,
             port='5439')
         print(conn)
         print("Connected to Redshift successfully!")
@@ -139,9 +139,9 @@ def cargar_data(exec_date):
     url="data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com"
     conn = psycopg2.connect(
         host=url,
-        dbname=redshift_conn["database"],
-        user=redshift_conn["username"],
-        password=redshift_conn["pwd"],
+        dbname=data_base,
+        user=user,
+        password=pwd,
         port='5439')
     # Define the columns you want to insert data into
     columns = ['name', 'population', 'area','region','subregion','capital','borders','timezones','etl_time']
