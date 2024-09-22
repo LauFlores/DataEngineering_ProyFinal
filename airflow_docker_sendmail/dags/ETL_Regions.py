@@ -166,7 +166,7 @@ def enviar_email(exec_date):
     try:
         x=smtplib.SMTP('smtp.gmail.com',587)
         x.starttls()
-        x.login('flores.laura1787@gmail.com','uqdi wlwb ccwh lhas')
+        x.login('flores.laura1787@gmail.com','uqdiwlwbccwhlhas')
         fecha = datetime.now()
         subject='Corrida del API con datos al ' + str(fecha)
         body_text='El proceso a corrido de forma satisfactoria '

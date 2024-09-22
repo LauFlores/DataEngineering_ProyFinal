@@ -9795,3 +9795,1018 @@ File Path                         PID    Runtime      # DAGs    # Errors  Last R
 [2024-09-22 02:09:00,972] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
 [2024-09-22 02:09:00,973] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 02:04:00.973280+00:00
 [2024-09-22 02:09:09,640] {manager.py:495} INFO - Exiting gracefully upon receiving signal 15
+[2024-09-22 03:51:02,348] {manager.py:514} INFO - Processing files using up to 2 processes at a time 
+[2024-09-22 03:51:02,354] {manager.py:515} INFO - Process each file at most once every 30 seconds
+[2024-09-22 03:51:02,356] {manager.py:517} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-09-22 03:51:02,357] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2024-09-22 03:51:02,390] {manager.py:666} INFO - There are 1 files in /opt/airflow/dags
+[2024-09-22 03:51:02,607] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:51:02,608] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:46:02.608869+00:00
+[2024-09-22 03:51:02,709] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ETL_Regions.py     43  0.10s             0           0
+================================================================================
+[2024-09-22 03:51:12,779] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:51:12,780] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:46:12.780301+00:00
+[2024-09-22 03:51:22,826] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:51:22,827] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:46:22.827483+00:00
+[2024-09-22 03:51:32,867] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:51:32,867] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:46:32.867762+00:00
+[2024-09-22 03:51:32,877] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  2.23s           2024-09-22T03:51:04
+================================================================================
+[2024-09-22 03:51:42,960] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:51:42,960] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:46:42.960866+00:00
+[2024-09-22 03:51:53,007] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:51:53,008] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:46:53.008233+00:00
+[2024-09-22 03:52:03,054] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:52:03,055] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:47:03.055181+00:00
+[2024-09-22 03:52:03,068] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.65s           2024-09-22T03:51:35
+================================================================================
+[2024-09-22 03:52:13,707] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:52:13,709] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:47:13.709010+00:00
+[2024-09-22 03:52:23,769] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:52:23,771] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:47:23.771564+00:00
+[2024-09-22 03:52:33,842] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:52:33,843] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:47:33.843079+00:00
+[2024-09-22 03:52:33,864] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.03s           2024-09-22T03:52:06
+================================================================================
+[2024-09-22 03:52:43,913] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:52:43,914] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:47:43.914196+00:00
+[2024-09-22 03:52:53,976] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:52:53,977] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:47:53.977556+00:00
+[2024-09-22 03:53:04,039] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:53:04,040] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:48:04.040490+00:00
+[2024-09-22 03:53:04,053] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.17s           2024-09-22T03:52:38
+================================================================================
+[2024-09-22 03:53:14,198] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:53:14,198] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:48:14.198612+00:00
+[2024-09-22 03:53:24,287] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:53:24,288] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:48:24.288446+00:00
+[2024-09-22 03:53:34,104] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.91s           2024-09-22T03:53:08
+================================================================================
+[2024-09-22 03:53:34,343] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:53:34,344] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:48:34.344089+00:00
+[2024-09-22 03:53:45,163] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:53:45,164] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:48:45.164188+00:00
+[2024-09-22 03:53:55,265] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:53:55,266] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:48:55.266388+00:00
+[2024-09-22 03:54:04,326] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.09s           2024-09-22T03:53:40
+================================================================================
+[2024-09-22 03:54:05,329] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:54:05,330] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:49:05.329978+00:00
+[2024-09-22 03:54:15,371] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:54:15,372] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:49:15.372339+00:00
+[2024-09-22 03:54:25,431] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:54:25,432] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:49:25.432317+00:00
+[2024-09-22 03:54:34,498] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.98s           2024-09-22T03:54:11
+================================================================================
+[2024-09-22 03:54:35,501] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:54:35,502] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:49:35.502544+00:00
+[2024-09-22 03:54:45,600] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:54:45,601] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:49:45.601241+00:00
+[2024-09-22 03:54:55,658] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:54:55,659] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:49:55.659311+00:00
+[2024-09-22 03:55:04,746] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.23s           2024-09-22T03:54:42
+================================================================================
+[2024-09-22 03:55:05,753] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:55:05,754] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:50:05.754028+00:00
+[2024-09-22 03:55:15,998] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:55:15,998] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:50:15.998892+00:00
+[2024-09-22 03:55:26,050] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:55:26,051] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:50:26.051231+00:00
+[2024-09-22 03:55:35,123] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.29s           2024-09-22T03:55:14
+================================================================================
+[2024-09-22 03:55:36,126] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:55:36,127] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:50:36.127514+00:00
+[2024-09-22 03:55:46,211] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:55:46,211] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:50:46.211816+00:00
+[2024-09-22 03:55:56,264] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:55:56,265] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:50:56.265733+00:00
+[2024-09-22 03:56:03,314] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2024-09-22 03:56:03,359] {manager.py:666} INFO - There are 1 files in /opt/airflow/dags
+[2024-09-22 03:56:05,398] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.04s           2024-09-22T03:55:45
+================================================================================
+[2024-09-22 03:56:06,400] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:56:06,401] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:51:06.401861+00:00
+[2024-09-22 03:56:16,479] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:56:16,480] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:51:16.480501+00:00
+[2024-09-22 03:56:26,547] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:56:26,548] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:51:26.548566+00:00
+[2024-09-22 03:56:35,608] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.13s           2024-09-22T03:56:16
+================================================================================
+[2024-09-22 03:56:36,611] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:56:36,612] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:51:36.612541+00:00
+[2024-09-22 03:56:46,679] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:56:46,680] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:51:46.680169+00:00
+[2024-09-22 03:56:56,782] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 03:56:56,783] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 03:51:56.783515+00:00
+[2024-09-22 03:57:00,485] {manager.py:495} INFO - Exiting gracefully upon receiving signal 15
+[2024-09-22 04:30:56,235] {manager.py:514} INFO - Processing files using up to 2 processes at a time 
+[2024-09-22 04:30:56,250] {manager.py:515} INFO - Process each file at most once every 30 seconds
+[2024-09-22 04:30:56,252] {manager.py:517} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-09-22 04:30:56,256] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2024-09-22 04:30:56,313] {manager.py:666} INFO - There are 1 files in /opt/airflow/dags
+[2024-09-22 04:30:56,501] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:30:56,503] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:25:56.503060+00:00
+[2024-09-22 04:30:56,581] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ETL_Regions.py     52  0.08s             0           0
+================================================================================
+[2024-09-22 04:31:06,626] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:31:06,627] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:26:06.627370+00:00
+[2024-09-22 04:31:16,686] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:31:16,687] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:26:16.687772+00:00
+[2024-09-22 04:31:26,755] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:31:26,755] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:26:26.755955+00:00
+[2024-09-22 04:31:26,764] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  2.40s           2024-09-22T04:30:58
+================================================================================
+[2024-09-22 04:31:37,067] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:31:37,068] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:26:37.068309+00:00
+[2024-09-22 04:31:47,108] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:31:47,108] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:26:47.108736+00:00
+[2024-09-22 04:31:56,784] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.65s           2024-09-22T04:31:29
+================================================================================
+[2024-09-22 04:31:57,144] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:31:57,144] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:26:57.144762+00:00
+[2024-09-22 04:32:07,260] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:32:07,261] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:27:07.261461+00:00
+[2024-09-22 04:32:17,303] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:32:17,304] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:27:17.304013+00:00
+[2024-09-22 04:32:26,802] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.91s           2024-09-22T04:32:00
+================================================================================
+[2024-09-22 04:32:27,347] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:32:27,348] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:27:27.348196+00:00
+[2024-09-22 04:32:37,388] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:32:37,388] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:27:37.388844+00:00
+[2024-09-22 04:32:47,441] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:32:47,442] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:27:47.442269+00:00
+[2024-09-22 04:32:57,490] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:32:57,490] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:27:57.490610+00:00
+[2024-09-22 04:32:57,498] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.56s           2024-09-22T04:32:31
+================================================================================
+[2024-09-22 04:33:07,534] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:33:07,535] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:28:07.535135+00:00
+[2024-09-22 04:33:17,582] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:33:17,583] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:28:17.583280+00:00
+[2024-09-22 04:33:27,637] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:33:27,638] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:28:27.638035+00:00
+[2024-09-22 04:33:27,649] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.51s           2024-09-22T04:33:02
+================================================================================
+[2024-09-22 04:33:37,683] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:33:37,684] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:28:37.684434+00:00
+[2024-09-22 04:33:47,741] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:33:47,742] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:28:47.742120+00:00
+[2024-09-22 04:33:57,787] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:33:57,788] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:28:57.788473+00:00
+[2024-09-22 04:33:57,799] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.63s           2024-09-22T04:33:32
+================================================================================
+[2024-09-22 04:34:07,880] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:34:07,881] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:29:07.881088+00:00
+[2024-09-22 04:34:17,928] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:34:17,928] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:29:17.928726+00:00
+[2024-09-22 04:34:27,969] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:34:27,970] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:29:27.970104+00:00
+[2024-09-22 04:34:27,982] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.81s           2024-09-22T04:34:03
+================================================================================
+[2024-09-22 04:34:38,021] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:34:38,022] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:29:38.022332+00:00
+[2024-09-22 04:34:48,074] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:34:48,075] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:29:48.075127+00:00
+[2024-09-22 04:34:58,112] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:34:58,113] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:29:58.113260+00:00
+[2024-09-22 04:34:58,129] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.65s           2024-09-22T04:34:34
+================================================================================
+[2024-09-22 04:35:08,168] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:35:08,169] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:30:08.169125+00:00
+[2024-09-22 04:35:18,214] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:35:18,215] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:30:18.215326+00:00
+[2024-09-22 04:35:28,263] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:35:28,263] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:30:28.263789+00:00
+[2024-09-22 04:35:28,277] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.95s           2024-09-22T04:35:05
+================================================================================
+[2024-09-22 04:35:38,601] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:35:38,602] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:30:38.602798+00:00
+[2024-09-22 04:35:48,665] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:35:48,666] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:30:48.666033+00:00
+[2024-09-22 04:35:56,347] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2024-09-22 04:35:56,390] {manager.py:666} INFO - There are 1 files in /opt/airflow/dags
+[2024-09-22 04:35:58,416] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.65s           2024-09-22T04:35:36
+================================================================================
+[2024-09-22 04:35:58,701] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:35:58,701] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:30:58.701872+00:00
+[2024-09-22 04:36:08,747] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:36:08,748] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:31:08.748701+00:00
+[2024-09-22 04:36:18,793] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:36:18,794] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:31:18.794153+00:00
+[2024-09-22 04:36:28,831] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:36:28,832] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:31:28.832255+00:00
+[2024-09-22 04:36:28,845] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.74s           2024-09-22T04:36:07
+================================================================================
+[2024-09-22 04:36:39,295] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:36:39,295] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:31:39.295918+00:00
+[2024-09-22 04:36:49,338] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:36:49,338] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:31:49.338856+00:00
+[2024-09-22 04:36:58,914] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.55s           2024-09-22T04:36:37
+================================================================================
+[2024-09-22 04:36:59,378] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:36:59,379] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:31:59.379493+00:00
+[2024-09-22 04:37:09,970] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:37:09,970] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:32:09.970871+00:00
+[2024-09-22 04:37:20,027] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:37:20,028] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:32:20.028486+00:00
+[2024-09-22 04:37:29,085] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.13s           2024-09-22T04:37:09
+================================================================================
+[2024-09-22 04:37:30,088] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:37:30,088] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:32:30.088862+00:00
+[2024-09-22 04:37:40,205] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:37:40,206] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:32:40.206396+00:00
+[2024-09-22 04:37:50,259] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:37:50,260] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:32:50.260429+00:00
+[2024-09-22 04:37:59,300] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.50s           2024-09-22T04:37:39
+================================================================================
+[2024-09-22 04:38:00,302] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:38:00,302] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:33:00.302846+00:00
+[2024-09-22 04:38:10,780] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:38:10,781] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:33:10.781472+00:00
+[2024-09-22 04:38:20,841] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:38:20,842] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:33:20.842382+00:00
+[2024-09-22 04:38:29,374] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.52s           2024-09-22T04:38:10
+================================================================================
+[2024-09-22 04:38:30,884] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:38:30,886] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:33:30.886733+00:00
+[2024-09-22 04:38:40,950] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:38:40,951] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:33:40.951392+00:00
+[2024-09-22 04:38:51,014] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:38:51,015] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:33:51.014986+00:00
+[2024-09-22 04:39:00,071] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.57s           2024-09-22T04:38:40
+================================================================================
+[2024-09-22 04:39:01,075] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:39:01,075] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:34:01.075675+00:00
+[2024-09-22 04:39:11,122] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:39:11,124] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:34:11.124347+00:00
+[2024-09-22 04:39:21,191] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:39:21,192] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:34:21.192058+00:00
+[2024-09-22 04:39:30,241] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.51s           2024-09-22T04:39:11
+================================================================================
+[2024-09-22 04:39:31,243] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:39:31,244] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:34:31.244058+00:00
+[2024-09-22 04:39:41,300] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:39:41,300] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:34:41.300485+00:00
+[2024-09-22 04:39:51,354] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:39:51,355] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:34:51.355674+00:00
+[2024-09-22 04:40:00,408] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.63s           2024-09-22T04:39:42
+================================================================================
+[2024-09-22 04:40:01,410] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:40:01,411] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:35:01.411390+00:00
+[2024-09-22 04:40:11,470] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:40:11,471] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:35:11.471390+00:00
+[2024-09-22 04:40:21,584] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:40:21,584] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:35:21.584655+00:00
+[2024-09-22 04:40:30,627] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.59s           2024-09-22T04:40:13
+================================================================================
+[2024-09-22 04:40:31,629] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:40:31,631] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:35:31.631258+00:00
+[2024-09-22 04:40:41,698] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:40:41,699] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:35:41.699487+00:00
+[2024-09-22 04:40:51,753] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:40:51,753] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:35:51.753949+00:00
+[2024-09-22 04:40:56,782] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2024-09-22 04:40:56,840] {manager.py:666} INFO - There are 1 files in /opt/airflow/dags
+[2024-09-22 04:41:00,881] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.59s           2024-09-22T04:40:43
+================================================================================
+[2024-09-22 04:41:01,884] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:41:01,884] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:36:01.884566+00:00
+[2024-09-22 04:41:11,939] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:41:11,940] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:36:11.940082+00:00
+[2024-09-22 04:41:22,002] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:41:22,003] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:36:22.003676+00:00
+[2024-09-22 04:41:31,052] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.62s           2024-09-22T04:41:14
+================================================================================
+[2024-09-22 04:41:32,055] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:41:32,056] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:36:32.056460+00:00
+[2024-09-22 04:41:42,106] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:41:42,107] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:36:42.107211+00:00
+[2024-09-22 04:41:52,150] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:41:52,151] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:36:52.151491+00:00
+[2024-09-22 04:42:01,235] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.55s           2024-09-22T04:41:45
+================================================================================
+[2024-09-22 04:42:02,240] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:42:02,240] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:37:02.240759+00:00
+[2024-09-22 04:42:12,297] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:42:12,299] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:37:12.299533+00:00
+[2024-09-22 04:42:22,391] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:42:22,392] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:37:22.392003+00:00
+[2024-09-22 04:42:31,432] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.56s           2024-09-22T04:42:15
+================================================================================
+[2024-09-22 04:42:32,435] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:42:32,435] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:37:32.435930+00:00
+[2024-09-22 04:42:42,483] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:42:42,484] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:37:42.484125+00:00
+[2024-09-22 04:42:52,542] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:42:52,545] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:37:52.544945+00:00
+[2024-09-22 04:43:01,588] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.53s           2024-09-22T04:42:46
+================================================================================
+[2024-09-22 04:43:02,590] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:43:02,591] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:38:02.591156+00:00
+[2024-09-22 04:43:12,641] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:43:12,642] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:38:12.642525+00:00
+[2024-09-22 04:43:22,719] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:43:22,719] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:38:22.719924+00:00
+[2024-09-22 04:43:31,783] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.51s           2024-09-22T04:43:17
+================================================================================
+[2024-09-22 04:43:32,786] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:43:32,787] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:38:32.787261+00:00
+[2024-09-22 04:43:42,841] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:43:42,842] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:38:42.842759+00:00
+[2024-09-22 04:43:53,348] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:43:53,349] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:38:53.349605+00:00
+[2024-09-22 04:44:01,904] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.51s           2024-09-22T04:43:47
+================================================================================
+[2024-09-22 04:44:03,398] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:44:03,398] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:39:03.398910+00:00
+[2024-09-22 04:44:13,453] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:44:13,454] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:39:13.454144+00:00
+[2024-09-22 04:44:23,500] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:44:23,502] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:39:23.502192+00:00
+[2024-09-22 04:44:31,943] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.93s           2024-09-22T04:44:18
+================================================================================
+[2024-09-22 04:44:33,560] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:44:33,560] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:39:33.560569+00:00
+[2024-09-22 04:44:43,603] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:44:43,604] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:39:43.604224+00:00
+[2024-09-22 04:44:54,033] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:44:54,034] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:39:54.034683+00:00
+[2024-09-22 04:45:02,075] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.58s           2024-09-22T04:44:49
+================================================================================
+[2024-09-22 04:45:04,081] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:45:04,083] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:40:04.082994+00:00
+[2024-09-22 04:45:14,129] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:45:14,130] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:40:14.130065+00:00
+[2024-09-22 04:45:24,173] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:45:24,174] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:40:24.174505+00:00
+[2024-09-22 04:45:32,215] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.80s           2024-09-22T04:45:20
+================================================================================
+[2024-09-22 04:45:34,221] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:45:34,223] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:40:34.223266+00:00
+[2024-09-22 04:45:44,289] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:45:44,290] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:40:44.290320+00:00
+[2024-09-22 04:45:54,633] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:45:54,634] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:40:54.634737+00:00
+[2024-09-22 04:45:57,054] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2024-09-22 04:45:57,085] {manager.py:666} INFO - There are 1 files in /opt/airflow/dags
+[2024-09-22 04:46:02,700] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.42s           2024-09-22T04:45:52
+================================================================================
+[2024-09-22 04:46:04,707] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:46:04,708] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:41:04.708131+00:00
+[2024-09-22 04:46:14,767] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:46:14,767] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:41:14.767635+00:00
+[2024-09-22 04:46:25,293] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:46:25,294] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:41:25.294907+00:00
+[2024-09-22 04:46:32,738] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.42s           2024-09-22T04:46:23
+================================================================================
+[2024-09-22 04:46:35,343] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:46:35,343] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:41:35.343687+00:00
+[2024-09-22 04:46:45,413] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:46:45,414] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:41:45.414190+00:00
+[2024-09-22 04:46:55,475] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:46:55,476] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:41:55.476350+00:00
+[2024-09-22 04:47:02,755] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.82s           2024-09-22T04:46:55
+================================================================================
+[2024-09-22 04:47:05,568] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:47:05,569] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:42:05.569308+00:00
+[2024-09-22 04:47:15,646] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:47:15,649] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:42:15.648955+00:00
+[2024-09-22 04:47:25,716] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:47:25,718] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:42:25.718065+00:00
+[2024-09-22 04:47:32,980] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  2.47s           2024-09-22T04:47:28
+================================================================================
+[2024-09-22 04:47:36,003] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:47:36,007] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:42:36.007231+00:00
+[2024-09-22 04:47:46,088] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:47:46,089] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:42:46.089393+00:00
+[2024-09-22 04:47:56,146] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:47:56,146] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:42:56.146814+00:00
+[2024-09-22 04:48:03,424] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.11s           2024-09-22T04:47:59
+================================================================================
+[2024-09-22 04:48:06,435] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:48:06,436] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:43:06.436347+00:00
+[2024-09-22 04:48:16,497] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:48:16,498] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:43:16.497884+00:00
+[2024-09-22 04:48:26,558] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:48:26,560] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:43:26.560607+00:00
+[2024-09-22 04:48:33,660] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.13s           2024-09-22T04:48:30
+================================================================================
+[2024-09-22 04:48:36,670] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:48:36,671] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:43:36.671195+00:00
+[2024-09-22 04:48:46,756] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:48:46,757] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:43:46.757098+00:00
+[2024-09-22 04:48:56,835] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:48:56,838] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:43:56.838287+00:00
+[2024-09-22 04:49:04,015] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.14s           2024-09-22T04:49:02
+================================================================================
+[2024-09-22 04:49:07,027] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:49:07,028] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:44:07.027989+00:00
+[2024-09-22 04:49:17,089] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:49:17,090] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:44:17.090435+00:00
+[2024-09-22 04:49:27,153] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:49:27,154] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:44:27.154140+00:00
+[2024-09-22 04:49:34,234] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.35s           2024-09-22T04:49:33
+================================================================================
+[2024-09-22 04:49:37,248] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:49:37,249] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:44:37.249297+00:00
+[2024-09-22 04:49:47,310] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:49:47,313] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:44:47.313436+00:00
+[2024-09-22 04:49:57,368] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:49:57,369] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:44:57.369877+00:00
+[2024-09-22 04:50:04,447] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py   1158  0.74s             1           0  1.35s           2024-09-22T04:49:33
+================================================================================
+[2024-09-22 04:50:07,722] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:50:07,722] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:45:07.722701+00:00
+[2024-09-22 04:50:17,795] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:50:17,798] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:45:17.797942+00:00
+[2024-09-22 04:50:27,871] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:50:27,872] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:45:27.872411+00:00
+[2024-09-22 04:50:34,914] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.33s           2024-09-22T04:50:05
+================================================================================
+[2024-09-22 04:50:37,931] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:50:37,934] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:45:37.934516+00:00
+[2024-09-22 04:50:48,012] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:50:48,014] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:45:48.014388+00:00
+[2024-09-22 04:50:57,077] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2024-09-22 04:50:57,166] {manager.py:666} INFO - There are 1 files in /opt/airflow/dags
+[2024-09-22 04:50:58,223] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:50:58,224] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:45:58.224443+00:00
+[2024-09-22 04:51:05,282] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.77s           2024-09-22T04:50:36
+================================================================================
+[2024-09-22 04:51:08,302] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:51:08,303] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:46:08.303072+00:00
+[2024-09-22 04:51:18,399] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:51:18,400] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:46:18.400303+00:00
+[2024-09-22 04:51:28,457] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:51:28,458] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:46:28.458013+00:00
+[2024-09-22 04:51:35,512] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.23s           2024-09-22T04:51:08
+================================================================================
+[2024-09-22 04:51:38,524] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:51:38,525] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:46:38.524939+00:00
+[2024-09-22 04:51:48,756] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:51:48,759] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:46:48.759370+00:00
+[2024-09-22 04:51:58,828] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:51:58,829] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:46:58.829394+00:00
+[2024-09-22 04:52:05,560] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.84s           2024-09-22T04:51:40
+================================================================================
+[2024-09-22 04:52:08,903] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:52:08,904] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:47:08.904506+00:00
+[2024-09-22 04:52:19,630] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:52:19,632] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:47:19.632082+00:00
+[2024-09-22 04:52:29,702] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:52:29,703] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:47:29.703671+00:00
+[2024-09-22 04:52:35,759] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.22s           2024-09-22T04:52:11
+================================================================================
+[2024-09-22 04:52:39,779] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:52:39,790] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:47:39.790222+00:00
+[2024-09-22 04:52:49,975] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:52:49,979] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:47:49.979846+00:00
+[2024-09-22 04:53:00,047] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:53:00,048] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:48:00.048281+00:00
+[2024-09-22 04:53:06,085] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.37s           2024-09-22T04:52:43
+================================================================================
+[2024-09-22 04:53:10,100] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:53:10,101] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:48:10.101591+00:00
+[2024-09-22 04:53:20,382] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:53:20,383] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:48:20.383595+00:00
+[2024-09-22 04:53:30,439] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:53:30,440] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:48:30.440454+00:00
+[2024-09-22 04:53:36,487] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.12s           2024-09-22T04:53:14
+================================================================================
+[2024-09-22 04:53:40,504] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:53:40,505] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:48:40.505419+00:00
+[2024-09-22 04:53:50,624] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:53:50,628] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:48:50.628276+00:00
+[2024-09-22 04:54:00,712] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:54:00,714] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:49:00.714559+00:00
+[2024-09-22 04:54:06,812] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.18s           2024-09-22T04:53:45
+================================================================================
+[2024-09-22 04:54:10,834] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:54:10,836] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:49:10.836275+00:00
+[2024-09-22 04:54:20,959] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:54:20,960] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:49:20.960430+00:00
+[2024-09-22 04:54:31,014] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:54:31,015] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:49:31.015057+00:00
+[2024-09-22 04:54:37,061] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  2.51s           2024-09-22T04:54:18
+================================================================================
+[2024-09-22 04:54:41,078] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:54:41,081] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:49:41.081514+00:00
+[2024-09-22 04:54:51,539] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:54:51,540] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:49:51.540447+00:00
+[2024-09-22 04:55:01,642] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:55:01,644] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:50:01.644330+00:00
+[2024-09-22 04:55:07,707] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.30s           2024-09-22T04:54:49
+================================================================================
+[2024-09-22 04:55:11,720] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:55:11,722] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:50:11.721964+00:00
+[2024-09-22 04:55:21,984] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:55:21,985] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:50:21.984988+00:00
+[2024-09-22 04:55:32,049] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:55:32,051] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:50:32.050796+00:00
+[2024-09-22 04:55:38,095] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.29s           2024-09-22T04:55:21
+================================================================================
+[2024-09-22 04:55:42,112] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:55:42,113] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:50:42.113271+00:00
+[2024-09-22 04:55:52,173] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:55:52,174] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:50:52.174338+00:00
+[2024-09-22 04:55:57,405] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2024-09-22 04:55:57,480] {manager.py:666} INFO - There are 1 files in /opt/airflow/dags
+[2024-09-22 04:56:02,540] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:56:02,541] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:51:02.541739+00:00
+[2024-09-22 04:56:08,573] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  1.37s           2024-09-22T04:55:52
+================================================================================
+[2024-09-22 04:56:12,585] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:56:12,586] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:51:12.586736+00:00
+[2024-09-22 04:56:22,659] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:56:22,659] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:51:22.659785+00:00
+[2024-09-22 04:56:32,688] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:56:32,690] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:51:32.690261+00:00
+[2024-09-22 04:56:38,788] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.75s           2024-09-22T04:56:23
+================================================================================
+[2024-09-22 04:56:42,804] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:56:42,805] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:51:42.805122+00:00
+[2024-09-22 04:56:52,862] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:56:52,863] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:51:52.863188+00:00
+[2024-09-22 04:57:02,881] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:57:02,882] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:52:02.882743+00:00
+[2024-09-22 04:57:08,924] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.97s           2024-09-22T04:56:54
+================================================================================
+[2024-09-22 04:57:12,939] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:57:12,945] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:52:12.945592+00:00
+[2024-09-22 04:57:23,121] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:57:23,122] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:52:23.121992+00:00
+[2024-09-22 04:57:33,188] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:57:33,188] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:52:33.188747+00:00
+[2024-09-22 04:57:39,256] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.76s           2024-09-22T04:57:15
+================================================================================
+[2024-09-22 04:57:43,272] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:57:43,275] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:52:43.275341+00:00
+[2024-09-22 04:57:53,328] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:57:53,329] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:52:53.329601+00:00
+[2024-09-22 04:58:03,398] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:58:03,399] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:53:03.399564+00:00
+[2024-09-22 04:58:09,444] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.53s           2024-09-22T04:57:46
+================================================================================
+[2024-09-22 04:58:13,464] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:58:13,466] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:53:13.466267+00:00
+[2024-09-22 04:58:23,536] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:58:23,537] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:53:23.537912+00:00
+[2024-09-22 04:58:33,600] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:58:33,601] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:53:33.601170+00:00
+[2024-09-22 04:58:39,634] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.65s           2024-09-22T04:58:17
+================================================================================
+[2024-09-22 04:58:43,652] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:58:43,653] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:53:43.653199+00:00
+[2024-09-22 04:58:53,696] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:58:53,697] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:53:53.697500+00:00
+[2024-09-22 04:59:03,740] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:59:03,740] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:54:03.740845+00:00
+[2024-09-22 04:59:09,777] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.65s           2024-09-22T04:58:47
+================================================================================
+[2024-09-22 04:59:13,790] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:59:13,790] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:54:13.790868+00:00
+[2024-09-22 04:59:23,825] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:59:23,825] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:54:23.825733+00:00
+[2024-09-22 04:59:33,887] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:59:33,889] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:54:33.888992+00:00
+[2024-09-22 04:59:39,945] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.74s           2024-09-22T04:59:18
+================================================================================
+[2024-09-22 04:59:43,958] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:59:43,959] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:54:43.959071+00:00
+[2024-09-22 04:59:54,199] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 04:59:54,200] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:54:54.200510+00:00
+[2024-09-22 05:00:04,248] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 05:00:04,249] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:55:04.249464+00:00
+[2024-09-22 05:00:10,286] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Regions.py                           1           0  0.61s           2024-09-22T04:59:49
+================================================================================
+[2024-09-22 05:00:14,300] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 05:00:14,301] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:55:14.301525+00:00
+[2024-09-22 05:00:24,733] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2024-09-22 05:00:24,734] {manager.py:1069} INFO - Failing jobs without heartbeat after 2024-09-22 04:55:24.734259+00:00
